@@ -9,6 +9,8 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <title>Hello world!</title>
     </head>
+    
+    
     <body>
         <?php
         use Classic\MyClass\Child as OtherThing;
