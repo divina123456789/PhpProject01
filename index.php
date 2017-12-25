@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Hello</title>
+        <title>Hello world!</title>
     </head>
     <body>
         <?php
@@ -21,7 +21,7 @@ and open the template in the editor.
        $child->traitFunction();
        
        echo '<br>'.$child->parentString();
-       echo 'something new';
+   //    echo 'something new';
        try{
        $myException=new Classic\MyClass\MyException();
        $myException->tryException();
